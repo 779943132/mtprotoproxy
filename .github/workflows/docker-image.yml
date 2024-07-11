@@ -21,6 +21,7 @@ jobs:
   main:
     # 在 Ubuntu 上运行
     runs-on: ubuntu-latest
+    environment: main
     steps:
       # git checkout 代码
       - name: Checkout
